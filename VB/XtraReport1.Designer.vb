@@ -39,9 +39,9 @@
             Me.xrTableCell3 = New DevExpress.XtraReports.UI.XRTableCell()
             Me.xrLine1 = New DevExpress.XtraReports.UI.XRLine()
             Me.objectDataSource1 = New DevExpress.DataAccess.ObjectBinding.ObjectDataSource()
-            DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.objectDataSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.objectDataSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
@@ -162,9 +162,9 @@
             Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() { Me.objectDataSource1})
             Me.DataSource = Me.objectDataSource1
             Me.Version = "15.1"
-            DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.objectDataSource1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.objectDataSource1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 
